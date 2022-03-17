@@ -48,6 +48,7 @@ function ImgSlider() {
 export default ImgSlider;
 
 const Carousel = styled(Slider)`
+  overflow: hidden;
   width: 100%;
   height: calc(100vh - 140px);
 
@@ -64,9 +65,9 @@ const Carousel = styled(Slider)`
     color: white;
   }
 
-  /* .slick-list {
-    overflow: visible;
-  } */
+  //  .slick-list {
+  //   overflow: visible;
+  // }
 
   button {
     z-index: 1;

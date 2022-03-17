@@ -210,24 +210,31 @@ const Nav = styled.nav`
 
   @media (max-width: 1000px) {
     justify-content: space-between;
+  }
+
+  @media (max-width: 750px) {
+    padding: 0 30px 0 4px;
   } ;
 `;
 
 const Logo = styled.img`
-  width: 440px;
+  width: 390px;
 
-  @media (max-width: 1000px) {
-    width: 400px;
-  }
+  // @media (max-width: 1000px) {
+  //   width: 380px;
+  // }
 
   @media (max-width: 800px) {
-    width: 380px;
+    width: 55%;
   }
 
-  @media (max-width: 500px) {
-    // width: 260px;
+  @media (max-width: 550px) {
+    width: 70%;
+  }
+
+  @media (max-width: 450px) {
     width: 80%;
-  } ;
+  }
 `;
 
 const Logo2 = styled.img`
