@@ -6,7 +6,7 @@ const AboutUs = () => {
     <Container>
       <Wrap>
         <img src="/images/coffee-bean.svg" />
-        <span>Ooo nama</span>
+        <span>O nama</span>
         <img src="/images/coffee-bean.svg" />
       </Wrap>
       <p>

@@ -37,6 +37,8 @@ const Footer = ({ burgerStatus, setBurgerStatus }) => {
 export default Footer;
 
 const Container = styled.div`
+  // DODAAOOOOOOOO
+  overflow: hidden;
   width: 100%;
   min-height: 200px;
   // background-color: #542001;
@@ -69,6 +71,11 @@ const Logo = styled.div`
     img {
       width: 500px;
     }
+
+    @media (max-width: 510px) {
+      img {
+        width: 95%;
+      }
   } ;
 `;
 

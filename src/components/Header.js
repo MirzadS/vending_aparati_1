@@ -160,6 +160,9 @@ const CustomClose = styled(AiOutlineClose)`
 `;
 
 const HeaderInfo = styled.div`
+  // DODAAOOOOOOOO
+  overflow: hidden;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -192,6 +195,9 @@ const IconPhone = styled.div`
 `; */
 
 const Nav = styled.nav`
+  // DODAAOOOOOOOO
+  overflow: hidden;
+
   height: 70px;
   background: white;
   display: flex;
@@ -216,6 +222,11 @@ const Logo = styled.img`
 
   @media (max-width: 800px) {
     width: 380px;
+  }
+
+  @media (max-width: 500px) {
+    // width: 260px;
+    width: 80%;
   } ;
 `;
 

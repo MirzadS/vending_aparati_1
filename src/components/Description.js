@@ -108,6 +108,9 @@ const Description = () => {
 export default Description;
 
 const DescriptionSection = styled.div`
+  // DODAAOOOOOOOO
+  overflow: hidden;
+
   display: flex;
   flex-direction: column;
   gap: 20px;
