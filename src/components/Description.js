@@ -119,7 +119,7 @@ const DescriptionSection = styled.div`
 
   @media (max-width: 1050px) {
     padding: 25px 0px 35px;
-  } ;
+  }
 `;
 
 const Container1 = styled.div`
@@ -188,7 +188,7 @@ const Container2 = styled.div`
 `;
 
 const TextSection = styled.div`
-  padding: 20px;
+  padding-bottom: 20px;
   text-align: center;
 
   /* DODAO */
@@ -210,6 +210,12 @@ const TextSection = styled.div`
 
   @media (max-width: 1050px) {
     gap: 10px;
+  }
+
+  @media (max-width: 500px) {
+    p {
+      padding: 19px 15px;
+    }
   }
 `;
 
@@ -236,5 +242,10 @@ const Poseban = styled.div`
 
   @media (max-width: 700px) {
     margin: 10px;
-  } ;
+  }
+
+  @media (max-width: 500px) {
+    margin: 10px 6px;
+    padding: 15px 11px;
+  }
 `;

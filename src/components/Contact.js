@@ -56,14 +56,14 @@ const Main = styled.main`
   width: 100%;
   min-height: 450px;
   text-align: center;
-  padding: 35px;
+  // padding: 35px;
 
   h1 {
-    font-size: 36px;
+    font-size: 35px;
   }
 
   @media (max-width: 1100px) {
-    padding: 50px 10px;
+    padding: 50px 20px;
   } ;
 `;
 const Container = styled.div`
@@ -96,6 +96,14 @@ const ContactWrap = styled.div`
   h2 {
     font-size: 31px;
   }
+
+  @media (max-width: 1100px) {
+    font-size: 21px;
+
+    h2 {
+      font-size: 28px;
+    }
+  }
 `;
 const LocationWrap = styled.div`
   font-size: 23px;
@@ -111,6 +119,14 @@ const LocationWrap = styled.div`
 
   h2 {
     font-size: 31px;
+  }
+
+  @media (max-width: 1100px) {
+    font-size: 21px;
+
+    h2 {
+      font-size: 28px;
+    }
   }
 `;
 

@@ -30,9 +30,11 @@ function Header({ burgerStatus, setBurgerStatus }) {
             <span>POČETNA</span>
           </Link>
 
-          <Link to="/">
-            <span>PROBNI RAD</span>
-          </Link>
+          {
+            <Link to="/">
+              <span>PROBNI RAD</span>
+            </Link>
+          }
 
           <Link to="/kontakt">
             <span>KONTAKT</span>
@@ -93,7 +95,7 @@ const CustomMenu = styled(GiHamburgerMenu)`
   font-size: 1.8rem;
   display: none;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1200px) {
     display: block;
   } ;
 `;
@@ -173,7 +175,7 @@ const HeaderInfo = styled.div`
   border-bottom: 1px solid #ededed;
   background-color: #f2f2f2;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1200px) {
     padding: 0 30px 0 15%;
   }
 `;
@@ -254,7 +256,7 @@ const Wrap = styled.div`
     height: 60px;
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1200px) {
     display: none;
   } ;
 `;

@@ -42,7 +42,7 @@ const Container = styled.div`
   padding: 35px 30px;
   background-color: rgba(56, 18, 1, 0.93);
   // background-color: red;
-  border-bottom: transparent;
+  // border-bottom: transparent;
   border: none;
   outline: none;
   position: relative;
@@ -59,6 +59,14 @@ const Container = styled.div`
   @media (max-width: 1000px) {
     padding: 35px 30px 60px;
   }
+
+  @media (max-width: 500px) {
+    padding: 35px 10px 60px;
+
+    p {
+      font-size: 21px;
+    }
+  }
 `;
 
 const Wrap = styled.div`
@@ -70,7 +78,18 @@ const Wrap = styled.div`
     letter-spacing: 1.6px;
     font-weight: bold;
   }
+
   img {
     width: 45px;
+  }
+
+  @media (max-width: 500px) {
+    span {
+      font-size: 37px;
+    }
+
+    img {
+      width: 41px;
+    }
   }
 `;
