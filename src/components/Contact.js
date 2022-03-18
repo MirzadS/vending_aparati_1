@@ -56,7 +56,7 @@ const Main = styled.main`
   width: 100%;
   min-height: 450px;
   text-align: center;
-  // padding: 35px;
+  padding: 35px;
 
   h1 {
     font-size: 35px;
