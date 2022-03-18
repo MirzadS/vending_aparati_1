@@ -48,7 +48,6 @@ function ImgSlider() {
 export default ImgSlider;
 
 const Carousel = styled(Slider)`
-  overflow: hidden;
   width: 100%;
   height: calc(100vh - 140px);
 
@@ -71,6 +70,10 @@ const Carousel = styled(Slider)`
 
   button {
     z-index: 1;
+  }
+
+  @media (max-width: 1350px) {
+    overflow: hidden;
   }
 `;
 
