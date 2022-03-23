@@ -41,6 +41,13 @@ function ImgSlider() {
         {/* DO 750 TREBA BITI        - aparat_7_660_620.jpg*/}
         {/* OD 750 DO 850 TREBA BITI - aparat_7_850_620.jpg */}
       </Wrap>
+
+      <Wrap>
+        <img src="/images/animacija_beak_2.jpg" alt="" />
+      </Wrap>
+      <Wrap>
+        <img src="/images/proba_merge_dvije_1.jpg" alt="" />
+      </Wrap>
     </Carousel>
   );
 }
@@ -75,6 +82,9 @@ const Carousel = styled(Slider)`
   @media (max-width: 1350px) {
     overflow: hidden;
   }
+  @media (max-width: 550px) {
+    height: calc(90vh - 140px);
+  }
 `;
 
 const Wrap = styled.div`
@@ -84,7 +94,7 @@ const Wrap = styled.div`
   height: calc(100vh - 140px);
 
   img {
-    // object-fit: contain;
+    object-fit: contain;
     // content: url("/images/uzmi-pauzu-rm1.jpg");
     border: 4 px solid transparent;
     border-radius: 4px;
