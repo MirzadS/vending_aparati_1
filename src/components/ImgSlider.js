@@ -30,17 +30,18 @@ function ImgSlider() {
         {/* <img src="/images/na-pauzi-eg.jpg" alt="" /> */}
         <img src="/images/uzmi-pauzu-r1.jpg" alt="" />
       </Wrap>
-      <Wrap>
-        {/* <img src="/images/na-pauzi-eg.jpg" alt="" /> */}
-        <img
-          // srcSet="/images/uzmi-pauzu-r1.jpg 1300w,
-          //         /images/uzmi-pauzu-r1.jpg 2000w"
+
+      {/* <Wrap> */}
+      {/* <img src="/images/na-pauzi-eg.jpg" alt="" /> */}
+      {/* <img
+          srcSet="/images/uzmi-pauzu-r1.jpg 1300w,
+                  /images/uzmi-pauzu-r1.jpg 2000w"
           src="/images/spojeno_4.jpg"
           alt=""
-        />
-        {/* DO 750 TREBA BITI        - aparat_7_660_620.jpg*/}
-        {/* OD 750 DO 850 TREBA BITI - aparat_7_850_620.jpg */}
-      </Wrap>
+        /> */}
+      {/* DO 750 TREBA BITI        - aparat_7_660_620.jpg*/}
+      {/* OD 750 DO 850 TREBA BITI - aparat_7_850_620.jpg */}
+      {/* </Wrap> */}
 
       <Wrap>
         <img src="/images/animacija_beak_2.jpg" alt="" />
@@ -83,7 +84,8 @@ const Carousel = styled(Slider)`
     overflow: hidden;
   }
   @media (max-width: 550px) {
-    height: calc(90vh - 140px);
+    padding-top: 3px;
+    height: calc(92vh - 140px);
   }
 `;
 
