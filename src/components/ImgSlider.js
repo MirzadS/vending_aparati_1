@@ -28,7 +28,11 @@ function ImgSlider() {
       {/* </Wrap> */}
       <Wrap>
         {/* <img src="/images/na-pauzi-eg.jpg" alt="" /> */}
-        <img src="/images/uzmi-pauzu-r1.jpg" alt="" />
+        {/* DO SAD NAJBOLJA FOTKA - pocetna_slajder_2.jpg */}
+        <img src="/images/pocetna_slajder_4.jpg" alt="" />
+
+        {/* <img src="/images/pocetna_slajder_4.jpg" alt="" /> */}
+        {/* <img src="/images/uzmi-pauzu-r1.jpg" alt="" /> */}
       </Wrap>
 
       {/* <Wrap> */}
