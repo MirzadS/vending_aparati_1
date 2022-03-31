@@ -46,7 +46,7 @@ const Description = () => {
         </PartForImage>
       </Container1>
       <hr />
-      <Container2>
+      <Container2 id="probni-rad">
         <ImgContainer2>
           <Fade direction="left" duration="1400" triggerOnce>
             {/* <ImgSection src="/images/animacija beak 2.jpg" /> */}

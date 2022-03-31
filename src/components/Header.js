@@ -5,6 +5,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { Fade } from "react-awesome-reveal";
 
 function Header({ burgerStatus, setBurgerStatus }) {
@@ -24,16 +25,19 @@ function Header({ burgerStatus, setBurgerStatus }) {
       </HeaderInfo>
 
       <Nav>
-        <Logo src="/images/logo2.PNG" />
+        <Link to="/">
+          <Logo src="/images/logo2.PNG" />
+        </Link>
+
         <NavMenu onClick={() => setBurgerStatus(false)}>
           <Link to="/">
             <span>POČETNA</span>
           </Link>
 
           {
-            <Link to="/">
+            <HashLink to="/#probni-rad">
               <span>PROBNI RAD</span>
-            </Link>
+            </HashLink>
           }
 
           <Link to="/kontakt">
@@ -60,9 +64,9 @@ function Header({ burgerStatus, setBurgerStatus }) {
             </Link>
           </li>
           <li>
-            <Link onClick={() => setBurgerStatus(false)} to="/">
+            <HashLink onClick={() => setBurgerStatus(false)} to="/#probni-rad">
               PROBNI RAD
-            </Link>
+            </HashLink>
           </li>
           <li>
             <Link onClick={() => setBurgerStatus(false)} to="/kontakt">
