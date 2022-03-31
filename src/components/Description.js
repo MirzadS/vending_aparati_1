@@ -49,7 +49,6 @@ const Description = () => {
       <Container2 id="probni-rad">
         <ImgContainer2>
           <Fade direction="left" duration="1400" triggerOnce>
-            {/* <ImgSection src="/images/animacija beak 2.jpg" /> */}
             <ImgSection src="/images/aparat_5.jpg" />
           </Fade>
         </ImgContainer2>
@@ -95,7 +94,6 @@ const Description = () => {
         </TextSection>
         <PartForImage>
           <Fade direction="right" duration="1400" triggerOnce>
-            {/* <ImgSection src="/images/small-machine-2.jpg" /> */}
             <ImgSection src="/images/mali_aparat_1.jpg" />
           </Fade>
         </PartForImage>
@@ -107,9 +105,7 @@ const Description = () => {
 export default Description;
 
 const DescriptionSection = styled.div`
-  // DODAAOOOOOOOO
   overflow: hidden;
-
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -173,16 +169,6 @@ const Container2 = styled.div`
 
   @media (max-width: 1050px) {
     grid-template-columns: 100%;
-
-    // div {
-    //   order: 2;
-    //   background-color: red;
-    // }
-
-    // main {
-    //   order: 12;
-    //   background-color: blue;
-    // }
   } ;
 `;
 
@@ -190,7 +176,6 @@ const TextSection = styled.div`
   padding-bottom: 20px;
   text-align: center;
 
-  /* DODAO */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -220,7 +205,6 @@ const TextSection = styled.div`
 
 const ImgSection = styled.img`
   width: 100%;
-  // height: 100%;
   border-radius: 6px;
 
   @media (max-width: 1050px) {

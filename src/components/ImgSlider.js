@@ -18,9 +18,6 @@ function ImgSlider() {
     <Carousel {...settings}>
       <Wrap>
         <img src="/images/pocetna_slajder_4.jpg" alt="" />
-
-        {/* <img src="/images/pocetna_slajder_2.jpg" alt="" /> */}
-        {/* <img src="/images/uzmi-pauzu-r1.jpg" alt="" /> */}
       </Wrap>
       <Wrap>
         <img src="/images/animacija_beak_2.jpg" alt="" />
@@ -37,7 +34,6 @@ export default ImgSlider;
 const Carousel = styled(Slider)`
   width: 100%;
   height: calc(100vh - 140px);
-
   padding-top: 20px;
 
   ul li button {

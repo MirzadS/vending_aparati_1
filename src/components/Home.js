@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ImgSlider from "./ImgSlider";
 import AboutUs from "./AboutUs";
 import Description from "./Description";
-import { Fade, Zoom } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const Home = ({ burgerStatus, setBurgerStatus }) => {
   return (

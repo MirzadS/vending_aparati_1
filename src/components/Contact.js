@@ -148,6 +148,5 @@ const Map = styled.div`
 
 const ImgContact = styled.img`
   width: 90%;
-  // height: 100%;
   border-radius: 15px;
 `;

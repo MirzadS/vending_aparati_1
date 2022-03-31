@@ -41,12 +41,9 @@ const Container = styled.div`
   min-height: 310px;
   padding: 35px 30px;
   background-color: rgba(56, 18, 1, 0.93);
-  // background-color: red;
-  // border-bottom: transparent;
   border: none;
   outline: none;
   position: relative;
-  // margin-bottom: 25px;
   color: white;
 
   p {

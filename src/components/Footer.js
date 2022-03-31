@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { FiPhoneCall } from "react-icons/fi";
-import { FaFacebookSquare } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
 
@@ -37,33 +36,25 @@ const Footer = ({ burgerStatus, setBurgerStatus }) => {
 export default Footer;
 
 const Container = styled.div`
-  // DODAAOOOOOOOO
   overflow: hidden;
   width: 100%;
   min-height: 200px;
-  // background-color: #542001;
   background-color: rgba(56, 18, 1, 0.96);
   padding: 15px;
 
   display: flex;
   justify-content: space-around;
 
-  // ZAKOMENTAR 31.MART----------
   align-items: center;
-
-  // Promijenio 27. mart
-  // text-align: center;
   gap: 25px;
 
   @media (max-width: 1100px) {
     flex-direction: column;
-
     gap: 35px;
   } ;
 `;
 
 const Logo = styled.div`
-  // width: 200px;
   text-align: center;
 
   img {
@@ -99,11 +90,7 @@ const Info = styled.div`
 `;
 const Wrap = styled.div`
   display: flex;
-
   align-items: center;
-  // Promijenio 27.mart
-
-  // justify-content: center;
   margin: 10px 0;
   gap: 8px;
 `;

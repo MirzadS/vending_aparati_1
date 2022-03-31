@@ -34,11 +34,9 @@ function Header({ burgerStatus, setBurgerStatus }) {
             <span>POČETNA</span>
           </Link>
 
-          {
-            <HashLink to="/#probni-rad">
-              <span>PROBNI RAD</span>
-            </HashLink>
-          }
+          <HashLink to="/#probni-rad">
+            <span>PROBNI RAD</span>
+          </HashLink>
 
           <Link to="/kontakt">
             <span>KONTAKT</span>
@@ -86,14 +84,6 @@ function Header({ burgerStatus, setBurgerStatus }) {
 
 export default Header;
 
-const BurgerMenu = styled.div`
-  display: none;
-
-  @media (max-width: 1400px) {
-    display: block;
-  } ;
-`;
-
 const CustomMenu = styled(GiHamburgerMenu)`
   cursor: pointer;
   font-size: 1.8rem;
@@ -135,19 +125,14 @@ const BurgerNav = styled.div`
 
 const BurgerText = styled.div`
   font-size: 17px;
-  // font-style: normal;
 `;
 
 const BurgerQuote = styled.div`
-  // Ne radi nista niti font-size
-  // font-family: "Lora", serif;
   display: flex;
   width: 100%;
-  // height: 100px;
   font-weight: bold;
   p {
     font-size: 20px;
-    // font-weight: 900;
   }
 
   img {
@@ -166,9 +151,7 @@ const CustomClose = styled(AiOutlineClose)`
 `;
 
 const HeaderInfo = styled.div`
-  // DODAAOOOOOOOO
   overflow: hidden;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -192,18 +175,9 @@ const IconPhone = styled.div`
   font-weight: bold;
   opacity: 0.7;
 `;
-/* const FacebookIcon = styled.div`
-  display: flex;
-  align-items: center;
-  font-size: 28px;
-  font-weight: bold;
-  opacity: 1;
-`; */
 
 const Nav = styled.nav`
-  // DODAAOOOOOOOO
   overflow: hidden;
-
   height: 70px;
   background: white;
   display: flex;
@@ -226,10 +200,6 @@ const Nav = styled.nav`
 const Logo = styled.img`
   width: 390px;
 
-  // @media (max-width: 1000px) {
-  //   width: 380px;
-  // }
-
   @media (max-width: 800px) {
     width: 55%;
   }
@@ -241,10 +211,6 @@ const Logo = styled.img`
   @media (max-width: 450px) {
     width: 80%;
   }
-`;
-
-const Logo2 = styled.img`
-  height: 100%;
 `;
 
 const Wrap = styled.div`
@@ -281,7 +247,6 @@ const NavMenu = styled.div`
 
     span {
       font-size: 16px;
-      // font-style: normal;
       font-weight: 600;
       letter-spacing: 1.42px;
       position: relative;
