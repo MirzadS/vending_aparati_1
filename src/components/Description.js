@@ -9,10 +9,10 @@ const Description = () => {
         <TextSection>
           <Zoom duration="1250" triggerOnce>
             <p>
-              Svim pravnim I fizičkim licima, koja imaju potrebu da na svojoj
+              Svim pravnim i fizičkim licima, koja imaju potrebu da na svojoj
               lokaciji omoguće konzumaciju toplog napitka (KAFA, ČAJ, KAPUČINO
               TOPLA ČOKOLADA MAKIJATO I SL.), ili hladnog napitka (SOK, VODA,
-              ENERGY), kao I slatku ili slanu grickalicu, nudimo instalaciju
+              ENERGY), kao i slatku ili slanu grickalicu, nudimo instalaciju
               samouslužnog aparata.
             </p>
           </Zoom>
@@ -20,21 +20,20 @@ const Description = () => {
           <Zoom duration="1350" triggerOnce>
             <p>
               Instaliranjem ove vrste aparata na Vašoj lokaciji poboljšat ćete
-              vaš odnos sa klijentom, uposlenikom, ili posjetiocima, a sve to
-              bez dodatnog angažmana, konobara, posuđa, prostorija, bez
-              zloupotreba I manipulacija, bez dodatne brige o kvaliteti
-              isporučenog napitka. Sve navedeno je naša briga I zadaća. Vaše je
-              samo da ubacite sitan novac, odaberete proizvod I ugodno
-              predahnete uz kafu sok ili neku grickalicu.
+              Vaš odnos sa klijentom, uposlenikom, ili posjetiocem, a sve to bez
+              dodatnog angažmana, konobara, posuđa, prostorija, bez zloupotreba
+              i manipulacija, bez dodatne brige o kvaliteti isporučenog napitka.
+              Sve navedeno je naša briga i zadaća. Vaše je samo da ubacite sitan
+              novac, odaberete proizvod i ugodno predahnete uz kafu sok ili neku
+              grickalicu.
             </p>
           </Zoom>
 
           <Zoom duration="1450" triggerOnce>
             <p>
-              Kada instalirate ovakav aparat na Vašu lokaciju činite uslugu
-              sebi, a klijenti koji čekaju ugodno skrate vrijeme čekanja.
-              Uposlenici koji rade, ugodno predahnu, gosti koji vas posjete
-              dobiju super napitak.
+              Kada instalirate naš aparat na Vašoj lokaciji činite uslugu sebi,
+              jer klijentima vrijeme čekanja činite ugodnijim uz super napitak.
+              Uposlenici će Vam biti zahvalni što mogu da predahnu.
             </p>
           </Zoom>
         </TextSection>
@@ -60,11 +59,11 @@ const Description = () => {
               <p>
                 Ako ste uvidjeli da imate potrebu da na svojoj lokaciji
                 instalirate samouslužni aparat, dovoljno je da nas kontaktirate
-                na telefon ili mailom. Na terenu ćemo odrediti tačnu lokaciju
-                aparata, predstavit ćemo vam vrste aparata koje imamo, kao I
-                proizvoda koji se mogu konzumirati. Prezentovat žemo vam cijene
-                proizvoda . Na samoj lokaciji dovoljna je utičnica za struju,
-                kao I to da lokacija nije izložena padavinama I extremnim
+                putem telefona ili na mail. Na terenu ćemo odrediti tačnu
+                lokaciju aparata, predstavit ćemo Vam vrste aparata koje imamo,
+                kao i proizvoda koji se mogu konzumirati. Prezentovat ćemo Vam
+                cijene proizvoda. Na samoj lokaciji dovoljna je utičnica za
+                struju, kao i da aparat nije izložen padavinama i ekstremnim
                 vremenskim uslovima.
               </p>
             </Zoom>
@@ -72,9 +71,9 @@ const Description = () => {
             <Zoom duration="1350" triggerOnce>
               <Poseban>
                 <p>
-                  Probni rad aparata je 2 mjeseca i vi nemate nikakvu
-                  finansijsku obavezu prema nama, kao ni prema samom aparatu. Mi
-                  aparat redovno obilazimo, dopunjavamo i održavamo.
+                  Probni rad aparata je 2 mjeseca bez finansijskih obaveza prema
+                  nama, kao ni prema samom aparatu. Mi aparat redovno obilazimo,
+                  dopunjavamo i održavamo.
                 </p>
               </Poseban>
             </Zoom>

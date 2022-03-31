@@ -19,7 +19,7 @@ const Footer = ({ burgerStatus, setBurgerStatus }) => {
         <Wrap>
           <MdLocationOn size="2rem" />
           <span>
-            Azize Šaćirbegović do42, <br /> Robot TC Hrasno 71000 Sarajevo
+            Azize Šaćirbegović do 42, <br /> Robot TC Hrasno 71000 Sarajevo
           </span>
         </Wrap>
       </Info>
@@ -47,8 +47,12 @@ const Container = styled.div`
 
   display: flex;
   justify-content: space-around;
+
+  // ZAKOMENTAR 31.MART----------
   align-items: center;
-  text-align: center;
+
+  // Promijenio 27. mart
+  // text-align: center;
   gap: 25px;
 
   @media (max-width: 1100px) {
@@ -60,6 +64,7 @@ const Container = styled.div`
 
 const Logo = styled.div`
   // width: 200px;
+  text-align: center;
 
   img {
     width: 450px;
@@ -94,14 +99,18 @@ const Info = styled.div`
 `;
 const Wrap = styled.div`
   display: flex;
+
   align-items: center;
-  justify-content: center;
+  // Promijenio 27.mart
+
+  // justify-content: center;
   margin: 10px 0;
   gap: 8px;
 `;
 const Telephone = styled.div`
   font-size: 27px;
   color: #f0f0f0;
+  text-align: center;
 
   div {
     font-size: 33px;

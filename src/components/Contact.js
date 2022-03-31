@@ -31,14 +31,14 @@ const Contact = ({ burgerStatus, setBurgerStatus }) => {
           </h2>
 
           <Wrap>
-            <IoMdTime size="2rem" />
-            <span>Pon - Pet: 07h - 15h</span>
-          </Wrap>
-          <Wrap>
             <MdLocationOn size="2rem" />
             <span>
-              Azize Šaćirbegović do42, <br /> Robot TC Hrasno 71000 Sarajevo
+              Azize Šaćirbegović do 42, <br /> Robot TC Hrasno 71000 Sarajevo
             </span>
+          </Wrap>
+          <Wrap>
+            <IoMdTime size="2rem" />
+            <span>Pon - Sub: 08h - 19h</span>
           </Wrap>
         </LocationWrap>
       </Container>

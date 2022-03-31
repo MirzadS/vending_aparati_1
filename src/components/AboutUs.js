@@ -11,9 +11,9 @@ const AboutUs = () => {
       </Wrap>
       <p>
         Naša djelatnost je distribucija, servis i instalacija samouslužnih kafe
-        i snek aparata. To su aparati za posluđivanje toplih, hladnih napita i
-        slatkih i slanih grickalica, a koji rade na principu ,, ubaci novac i
-        preuzmi super kvalitetan napitak, sve u nekoliko sekundi.
+        i sneck aparata. To su aparati za posluživanje toplih i hladnih napita,
+        te slatkih i slanih grickalica, koji rade na principu ubaci kovanicu i
+        preuzmi super kvalitetan napitak u nekoliko sekundi.
       </p>
 
       <div class="custom-shape-divider-bottom-1647031027">
