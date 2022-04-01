@@ -87,8 +87,17 @@ const Description = () => {
           <Zoom duration="1250" triggerOnce>
             <h2>MALI ESPRESO APARATI BEZ NAPLATE</h2>
             <p>
-              U ponudi imamo i male espreso aparate, koje Vam možemo
-              instalirati.
+              U ponudi imamo i male espresso aparate različitih brendova. Riječ
+              je o uređajima profesionalne klase pristupačne svakom preduzeću, a
+              koje odlikuju brzina, praktičnost i konzistentnost u procesu
+              pripreme kafe.
+            </p>
+
+            <p>
+              Zato neka za postojanost vašeg užitka od sada bude zadužen naš
+              espresso aparat koji iz kapsula punjenih savršenim omjerom
+              vrhunskih sastojaka u samo nekoliko sekundi proizvodi napitak
+              opojnih aroma.
             </p>
           </Zoom>
         </TextSection>
