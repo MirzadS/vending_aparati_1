@@ -40,8 +40,7 @@ const Description = () => {
 
         <PartForImage>
           <Fade direction="right" duration="1400" triggerOnce>
-            {/* <ImgSection src="/images/aparat animacija.jpg" /> */}
-            <ImgSection src="/images/aparat_7.jpg" />
+            <ImgSection src="/images/description_img_1.jpg" alt="aparat-1" />
           </Fade>
         </PartForImage>
       </Container1>
@@ -49,7 +48,7 @@ const Description = () => {
       <Container2 id="probni-rad">
         <ImgContainer2>
           <Fade direction="left" duration="1400" triggerOnce>
-            <ImgSection src="/images/aparat_5.jpg" />
+            <ImgSection src="/images/description_img_2.jpg" alt="aparat-2" />
           </Fade>
         </ImgContainer2>
         <TextContainer2>
@@ -85,7 +84,7 @@ const Description = () => {
       <Container1>
         <TextSection>
           <Zoom duration="1250" triggerOnce>
-            <h2>MALI ESPRESO APARATI BEZ NAPLATE</h2>
+            <h2>MALI ESPRESSO APARATI BEZ NAPLATE</h2>
             <p>
               U ponudi imamo i male espresso aparate različitih brendova. Riječ
               je o uređajima profesionalne klase pristupačne svakom preduzeću, a
@@ -103,7 +102,7 @@ const Description = () => {
         </TextSection>
         <PartForImage>
           <Fade direction="right" duration="1400" triggerOnce>
-            <ImgSection src="/images/mali_aparat_1.jpg" />
+            <ImgSection src="/images/description_img_3.jpg" alt="aparat-3" />
           </Fade>
         </PartForImage>
       </Container1>

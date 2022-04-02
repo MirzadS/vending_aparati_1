@@ -16,17 +16,14 @@ function Header({ burgerStatus, setBurgerStatus }) {
           <FiPhoneCall />
           <span>062 002 020</span>
         </IconPhone>
-        <a
-          href="https://hr-hr.facebook.com/ecogeneralvending/"
-          target={"_blank"}
-        >
+        <a href="https://hr-hr.facebook.com/ecogeneralvending/" target="_blank">
           <FaFacebookSquare size="1.7rem" />
         </a>
       </HeaderInfo>
 
       <Nav>
         <Link to="/">
-          <Logo src="/images/logo2.PNG" />
+          <Logo src="/images/main_logo.PNG" alt="logo" />
         </Link>
 
         <NavMenu onClick={() => setBurgerStatus(false)}>
@@ -45,7 +42,7 @@ function Header({ burgerStatus, setBurgerStatus }) {
         <Fade direction="right" duration="1300">
           <Wrap>
             <p>Unaprijedite vaš posao i radni ambijent</p>
-            <img src="/images/cup-8.png" alt="" />
+            <img src="/images/cup_header.png" alt="šolja" />
           </Wrap>
         </Fade>
         <CustomMenu onClick={() => setBurgerStatus(true)} />
@@ -75,7 +72,7 @@ function Header({ burgerStatus, setBurgerStatus }) {
 
         <BurgerQuote>
           <p>Unaprijedite vaš posao i radni ambijent</p>
-          <img src="/images/cup-8.png" alt="" />
+          <img src="/images/cup_header.png" alt="šolja" />
         </BurgerQuote>
       </BurgerNav>
     </>
@@ -91,7 +88,14 @@ const CustomMenu = styled(GiHamburgerMenu)`
 
   @media (max-width: 1200px) {
     display: block;
-  } ;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 2rem;
+  }
+  @media (max-width: 430px) {
+    font-size: 2.5rem;
+  }
 `;
 
 const BurgerNav = styled.div`

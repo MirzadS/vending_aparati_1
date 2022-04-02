@@ -17,13 +17,13 @@ function ImgSlider() {
   return (
     <Carousel {...settings}>
       <Wrap>
-        <img src="/images/pocetna_slajder_4.jpg" alt="" />
+        <img src="/images/slider_img_1.jpg" alt="" />
       </Wrap>
       <Wrap>
-        <img src="/images/animacija_beak_2.jpg" alt="" />
+        <img src="/images/slider_img_2.jpg" alt="" />
       </Wrap>
       <Wrap>
-        <img src="/images/proba_merge_dvije_1.jpg" alt="" />
+        <img src="/images/slider_img_3.jpg" alt="" />
       </Wrap>
     </Carousel>
   );

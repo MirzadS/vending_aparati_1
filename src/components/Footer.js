@@ -8,7 +8,7 @@ const Footer = ({ burgerStatus, setBurgerStatus }) => {
   return (
     <Container onClick={() => setBurgerStatus(false)}>
       <Logo>
-        <img src="/images/logo2.PNG" alt="Logo" />
+        <img src="/images/main_logo.PNG" alt="Logo" />
       </Logo>
       <Info>
         <Wrap>
@@ -86,7 +86,11 @@ const Info = styled.div`
 
   @media (max-width: 1100px) {
     order: 1;
-  } ;
+  }
+
+  @media (max-width: 350px) {
+    font-size: 19px;
+  }
 `;
 const Wrap = styled.div`
   display: flex;
@@ -113,5 +117,13 @@ const Telephone = styled.div`
 
   @media (max-width: 1100px) {
     order: 2;
-  } ;
+  }
+
+  @media (max-width: 350px) {
+    font-size: 23px;
+
+    div {
+      font-size: 27px;
+    }
+  }
 `;

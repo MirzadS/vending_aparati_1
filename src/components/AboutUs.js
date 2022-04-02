@@ -5,13 +5,13 @@ const AboutUs = () => {
   return (
     <Container>
       <Wrap>
-        <img src="/images/coffee-bean.svg" />
+        <img src="/images/coffee-bean.svg" alt="zrno-kafe" />
         <span>O nama</span>
-        <img src="/images/coffee-bean.svg" />
+        <img src="/images/coffee-bean.svg" alt="zrno-kafe" />
       </Wrap>
       <p>
         Naša djelatnost je distribucija, servis i instalacija samouslužnih kafe
-        i sneck aparata. To su aparati za posluživanje toplih i hladnih napita,
+        i snack aparata. To su aparati za posluživanje toplih i hladnih napita,
         te slatkih i slanih grickalica, koji rade na principu ubaci kovanicu i
         preuzmi super kvalitetan napitak u nekoliko sekundi.
       </p>

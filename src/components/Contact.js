@@ -44,7 +44,7 @@ const Contact = ({ burgerStatus, setBurgerStatus }) => {
       </Container>
 
       <Map>
-        <ImgContact src="/images/fotka111.jpg" />
+        <ImgContact src="/images/contact-pic.jpg" />
       </Map>
     </Main>
   );
@@ -104,6 +104,14 @@ const ContactWrap = styled.div`
       font-size: 28px;
     }
   }
+
+  @media (max-width: 350px) {
+    font-size: 18px;
+
+    h2 {
+      font-size: 26px;
+    }
+  }
 `;
 const LocationWrap = styled.div`
   font-size: 23px;
@@ -126,6 +134,14 @@ const LocationWrap = styled.div`
 
     h2 {
       font-size: 28px;
+    }
+  }
+
+  @media (max-width: 350px) {
+    font-size: 18px;
+
+    h2 {
+      font-size: 26px;
     }
   }
 `;
